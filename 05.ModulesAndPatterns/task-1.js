@@ -228,32 +228,4 @@ function solve() {
 
     return Course;
 }
-//
-//var test = solve();
-//test.init('JavaScript', ['Fund', 'OOP', 'UI & DOM']);
-//test.addStudent('Ivan Ivanov');
-//test.addStudent('Petar Petrov');
-//test.addStudent('Filip Filipov');
-//test.addStudent('Ilko Ilkov');
-//test.addStudent('Daniela Simeonova');
-//test.addStudent('Boris Stanoev');
-//test.addStudent('Todor Todorov');
-//test.addStudent('Kosio Filipov');
-//test.addStudent('Rumen Stanoev');
-//test.addStudent('Petko Petkov');
-//test.addStudent('Eleven Student');
-//test.addStudent('Twelve Student');
-//test.submitHomework(1, 1);
-//test.submitHomework(2, 1);
-//test.submitHomework(2, 2);
-//test.submitHomework(2, 3);
-//test.submitHomework(3, 2);
-//test.submitHomework(3, 3);
-//test.pushExamResults([
-//    {'StudentID': 1, 'Score': 50},
-//    {'StudentID': 2, 'Score': 100},
-//    {'StudentID': 3, 'Score': 100}
-//]);
-//console.log(test.getTopStudents());
-module.exports = solve;
 
