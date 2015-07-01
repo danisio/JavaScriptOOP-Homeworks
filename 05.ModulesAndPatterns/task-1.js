@@ -196,6 +196,9 @@ function solve() {
             var i,
                 len;
 
+            if (!Array.isArray(results)) {
+                throw new Error('Тhe results have not been submitted as an array');
+            }
             for (i = 0, len = results.length; i < len; i += 1) {
                 validateID(results[i].StudentID, this.students);
                 validateScore(results[i].Score, this.students);
